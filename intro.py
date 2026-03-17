@@ -9,3 +9,7 @@ nom = input ("Ingrese nombre: ")
 
 #Salida
 print("Hola", nom, " bienvenido al inframundo__,,,___(0.0)__,,,___")
+
+#Desarrolle un programa en Python que permita ingresar 5 datos de un usuario y los despliegue de forma amable e intuitiva
+#Nota: Ocupe los 3 tipos de datos (Numericos, Decimal y Alfanumericos)
+#No pedir edad
