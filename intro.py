@@ -13,8 +13,12 @@ print("Hola", nom, " bienvenido al inframundo__,,,___(0.0)__,,,___")
 #No pedir edad
 
 #Entrada
-nom = "Bienvenido al servicio de registro de protección del programa Secure-Tec. Soy HAX y te guiare en el proceso de tu solicitud. Por favor ingrese los siguientes datos para que su postulación quede registrada, a la brevedad uno de nuestros tecnicos evaluará su situación y las posibilidades de obtener un espacio en nuestros refugios nucleares"
+nom = input ("Bienvenido al servicio de registro de protección del programa Secure-Tec. Soy HAX y te guiare en el proceso de tu solicitud. Por favor ingrese los siguientes datos para que su postulación quede registrada, a la brevedad uno de nuestros tecnicos evaluará su situación y las posibilidades de obtener un espacio en nuestros refugios nucleares")
 nom = input ("Ingrese nacionalidad:") 
+nom = input ("Ingrese RUN")
+nom = input ("Ingrese sexo")
+nom = input ("Ingrese número de calzado")
+nom = input ("Ingrese peso exacto")
 
 
 #Salida
