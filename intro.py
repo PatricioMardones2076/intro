@@ -6,19 +6,18 @@ nom = ""
 nom = input ("Ingrese nombre: ")
 
 #Salida
-print("Hola", nom, " bienvenido al inframundo__,,,___(0.0)__,,,___")
+print("Hola", nom, "Bienvenido al servicio de registro de protección del programa Secure-Tec. Soy HAX y te guiare en el proceso de tu solicitud. Por favor ingrese los siguientes datos para que su postulación quede registrada, a la brevedad uno de nuestros tecnicos evaluará su situación y las posibilidades de obtener un espacio en nuestros refugios nucleares. Para continuar presione la tecla enter, por favor.")
 
 #Desarrolle un programa en Python que permita ingresar 5 datos de un usuario y los despliegue de forma amable e intuitiva
 #Nota: Ocupe los 3 tipos de datos (Numericos, Decimal y Alfanumericos)
 #No pedir edad
 
 #Entrada
-nom = input ("Bienvenido al servicio de registro de protección del programa Secure-Tec. Soy HAX y te guiare en el proceso de tu solicitud. Por favor ingrese los siguientes datos para que su postulación quede registrada, a la brevedad uno de nuestros tecnicos evaluará su situación y las posibilidades de obtener un espacio en nuestros refugios nucleares")
 nom = input ("Ingrese nacionalidad:") 
-nom = input ("Ingrese RUN")
-nom = input ("Ingrese sexo")
-nom = input ("Ingrese número de calzado")
-nom = input ("Ingrese peso exacto")
+nom = input ("Ingrese RUN:")
+nom = input ("Ingrese sexo:")
+nom = input ("Ingrese número de calzado:")
+nom = input ("Ingrese peso exacto:")
 
 
 #Salida
