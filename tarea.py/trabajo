@@ -4,7 +4,7 @@ print("Hola",nom, "y bienvenido al servicio de registro de protección del progr
 run = input ("Ingrese RUN:")
 sexo = input ("Ingrese sexo:")
 domicilio = input ("Ingrese domicilio:")
-peso = input ("Ingrese peso exacto en formato decimal:")
+altura = input ("Ingrese altura:")
 calzado = input ("Ingrese número de calzado:")
 
 #Salida
