@@ -1,10 +1,11 @@
 #Entrada
 nom = input ("Ingrese nombre:")
-print("Hola",nom, "y bienvenido al servicio de registro de protección del programa Secure-Tec. Soy HAX y te guiaré en el proceso de tu solicitud. Por favor ingrese los siguientes datos para que su postulación quede registrada, a la brevedad uno de nuestros tecnicos evaluará su situación y las posibilidades de obtener un espacio en nuestros refugios nucleares. Para continuar presione la tecla enter, por favor.")
+print("Hola",nom, "y bienvenido al servicio de registro de protección del programa Secure-Tec. Soy HAX y te guiaré en el proceso de tu solicitud. Por favor ingrese los siguientes datos para que su postulación quede registrada, a la brevedad uno de nuestros tecnicos evaluará su situación y las posibilidades de obtener un espacio en nuestros refugios nucleares. Para continuar, ingrese los datos solicitados para posteriormente presionar la tecla enter, por favor.")
 run = input ("Ingrese RUN:")
 sexo = input ("Ingrese sexo:")
 domicilio = input ("Ingrese domicilio:")
-peso = input ("Ingrese peso exacto:")
+peso = input ("Ingrese peso exacto en formato decimal:")
+calzado = input ("Ingrese número de calzado:")
 
 #Salida
 print ("Estimado/a", nom, "hemos terminado el proceso de postulación. A la brevedad nos pondremos en contacto con usted por medio de una carta informandole si ha sido seleccionado para ocupar uno de nuesros espacios en nuestros refugio nucleares. Muchas gracias y que tenga un buen día. SECURE-TEC, UN MEJOR FUTURO BAJO TUS PIES")
