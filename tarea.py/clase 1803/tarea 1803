@@ -1,0 +1,5 @@
+print(nom, ed, correo, sep=";")
+nom = input ("Ingrese nombre:")
+ed = input ("Ingrese edad:")
+correo = input ("Ingrese correo electrónico:")
+print(f"Hola {nom} tienes {ed} años, tu correo es {correo}")

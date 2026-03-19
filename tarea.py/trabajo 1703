@@ -8,4 +8,4 @@ altura = input ("Ingrese altura:")
 calzado = input ("Ingrese número de calzado:")
 
 #Salida
-print ("Estimado/a", nom, "hemos terminado el proceso de postulación. A la brevedad nos pondremos en contacto con usted por medio de una carta informandole si ha sido seleccionado para ocupar uno de nuesros espacios en nuestros refugio nucleares. Muchas gracias y que tenga un buen día. SECURE-TEC, UN MEJOR FUTURO BAJO TUS PIES")
+print("Estimado/a", nom, "con numero de identificación nacional", run, "su sexo es", sexo, "vive en", domicilio, "usted posee una altura de", altura, "y su talla de calzado corresponde a", calzado,"ya con estos datos en nuestro sistema, le informamos que hemos terminado el proceso de postulación. A la brevedad nos pondremos en contacto con usted por medio de una carta a su hogar, informandole si ha sido seleccionado para ocupar uno de nuesros espacios en nuestros refugio nucleares. Muchas gracias y que tenga un buen día. SECURE-TEC, UN MEJOR FUTURO BAJO TUS PIES")
