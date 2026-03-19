@@ -1,5 +1,22 @@
-print(nom, ed, correo, sep=";")
 nom = input ("Ingrese nombre:")
 ed = input ("Ingrese edad:")
 correo = input ("Ingrese correo electrónico:")
+print(nom, ed, correo, sep=";")
 print(f"Hola {nom} tienes {ed} años, tu correo es {correo}")
+
+#Parametros o argumentos
+#en print se puede usar sep= para indicar el separador entre los argumentos, por defecto es un espacio, pero se puede cambiar por otro caracter o cadena de caracteres
+#end= como termina print, por defecto es salto de linea, pero se puede cambiar por otro caracter o cadena de caracteres
+
+# Caracteres de escape
+#\n salto de linea
+
+#Pilares basicos de la orientacion a objetos
+
+#Abstraccion: Es la capacidad de representar conceptos complejos de manera simplificada, enfocándose en los aspectos esenciales y ocultando los detalles innecesarios. Permite crear modelos o representaciones de objetos del mundo real, destacando solo las características relevantes para el problema que se está abordando.
+
+#Encapsulamiento: Es el principio de ocultar los detalles internos de un objeto y exponer solo una interfaz pública para interactuar con él. Esto ayuda a proteger los datos y la funcionalidad de un objeto, evitando que otros objetos accedan directamente a su estado interno. El encapsulamiento promueve la modularidad y la seguridad en el diseño de software.
+
+#Herencia: Es el mecanismo que permite a una clase (subclase o clase derivada) heredar atributos y métodos de otra clase (superclase o clase base). La herencia facilita la reutilización de código y la creación de jerarquías de clases, donde las subclases pueden extender o modificar el comportamiento de la superclase.
+
+#Polimorfismo: Es la capacidad de un objeto de tomar muchas formas. En programación orientada a objetos, el polimorfismo permite que objetos de diferentes clases sean tratados como objetos de una clase común. Esto se logra a través de la herencia y la implementación de métodos con el mismo nombre en diferentes clases. El polimorfismo facilita la flexibilidad y la extensibilidad del código, permitiendo que se puedan usar objetos de diferentes tipos de manera intercambiable.
