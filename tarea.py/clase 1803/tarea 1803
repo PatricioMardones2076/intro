@@ -20,3 +20,5 @@ print(f"Hola {nom} tienes {ed} años, tu correo es {correo}")
 #Herencia: Es el mecanismo que permite a una clase (subclase o clase derivada) heredar atributos y métodos de otra clase (superclase o clase base). La herencia facilita la reutilización de código y la creación de jerarquías de clases, donde las subclases pueden extender o modificar el comportamiento de la superclase.
 
 #Polimorfismo: Es la capacidad de un objeto de tomar muchas formas. En programación orientada a objetos, el polimorfismo permite que objetos de diferentes clases sean tratados como objetos de una clase común. Esto se logra a través de la herencia y la implementación de métodos con el mismo nombre en diferentes clases. El polimorfismo facilita la flexibilidad y la extensibilidad del código, permitiendo que se puedan usar objetos de diferentes tipos de manera intercambiable.
+
+#Identificar 20 objetos de la vida real y sus atributos y métodos
