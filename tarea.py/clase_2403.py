@@ -1,10 +1,10 @@
 # Operadores aritmeticos
-+ suma (tercera prioridad)
-- resta (tercera prioridad)
-* multiplicacion (segunda prioridad)
-/ division (segunda prioridad)
-% resto (segunda prioridad)
-** potencia (primera prioridad) 
+# + suma ("tercera prioridad")
+# - resta ("tercera prioridad")
+# * multiplicacion ("segunda prioridad")
+# / division ("segunda prioridad")
+# % resto ("segunda prioridad")
+# ** potencia ("primera prioridad") 
 
 #Declaración de variables
 ed = 37
