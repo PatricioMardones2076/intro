@@ -1,7 +1,0 @@
-#Operadores aritmeticos
-+ suma
-- resta
-* multiplicacion (segunda prioridad)
-/ division (segunda prioridad)
-% resto (segunda prioridad)
-** potencia (primera prioridad) 
