@@ -25,4 +25,20 @@ edad = input ("Inserte edad")
 nacimiento = input ("inserte fecha de nacimiento")
 
 #Salida
-print(f"Su nombre es {nom}" , f"tiene una edad de {edad}" , f"usted nacio el {nacimiento}", sep = " | ")
+print(f"Su nombre es {nom}" , f"tiene una edad de {edad}" , f"usted nacio el {nacimiento}")
+
+#Entrada
+nom = input ("Inserte nombre")
+edad = input ("Inserte edad")
+nacimiento = input ("inserte fecha de nacimiento")
+
+#Salida
+print(f"Su nombre es {nom}" , f"tiene una edad de {edad}" , f"usted nacio el {nacimiento}", sep = " | ", end = "✓")
+
+#Entrada
+nom = input ("Inserte nombre")
+edad = input ("Inserte edad")
+nacimiento = input ("inserte fecha de nacimiento")
+
+#Salida
+print(f"Su nombre es {nom}\n" , f"tiene una edad de {edad}\n" , f"usted nacio el {nacimiento}\n", end = "✓")
