@@ -42,3 +42,18 @@ nacimiento = input ("inserte fecha de nacimiento")
 
 #Salida
 print(f"Su nombre es {nom}\n" , f"tiene una edad de {edad}\n" , f"usted nacio el {nacimiento}", end = "✓")
+
+#Declaración de variables
+buses = int(input("Ingrese el numero de buses: "))
+passengers = int(input("Ingrese el numero de pasajeros: "))
+price = int(input("Ingrese el precio: "))
+
+recaudacion = price * passengers
+
+print(f"La recaudacion de cada bus es de {recaudacion}")
+
+total = recaudacion * 2
+
+print(f"El dinero ganado por los 2 buses es de {total}")
+
+
