@@ -56,4 +56,19 @@ total = recaudacion * 2
 
 print(f"El dinero ganado por los 2 buses es de {total}")
 
+# Ejercicio 1
+# ------------------------------------------------------------
+# María trabaja en una tienda y vende 3 productos distintos.
+# El programa debe pedir el nombre y precio de cada producto,
+# y la cantidad que se vendió de cada uno.
+# ¿Cuánto es el total recaudado por la tienda ese día?
+ 
+# Tu código aquí:
+Producto_1 = ("Inserte precio y valor del producto 1")
+Producto_2 = ("Inserte precio y valor del producto 2")
+Producto_3 = ("Inserte precio y valor del producto 3")
+
+Cantidad_de_producto_1_vendido = ("Inserte cantidad vendida del producto 1")
+Cantidad_de_producto_2_vendido = ("Inserte cantidad vendida del producto 2")
+Cantidad_de_producto_3_vendido = ("Inserte cantidad vendida del producto 3")
 
