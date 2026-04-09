@@ -29,12 +29,31 @@ else:
 primer_num = int(input("Ingrese el primer numero:"))
 segundo_num = int(input("Ingrese el segundo numero:"))
 tercer_num = int(input("Ingrese el tercer numero:"))
-if primer_num > segundo_num and primer_num > tercer_num:
-    print("El numero mayor es: ", primer_num)
-if segundo_num > tercer_num and segundo_num > primer_num:
-        print("El numero mayor es: ", segundo_num)
-if tercer_num > segundo_num and tercer_num > primer_num:
-        print("El numero mayor es: ", tercer_num)
+if primer_num > segundo_num:
+ if primer_num > tercer_num:
+    print("El numero mayor es:", primer_num)
+if segundo_num > primer_num:
+ if segundo_num > tercer_num:
+    print("El numero mayor es:", segundo_num)
+if tercer_num > primer_num:
+  if tercer_num > segundo_num:
+    print("El numero mayor es:", tercer_num)
 
 
 #Desarrolle un programa que permita ingresar 3 numeros y siempre los despliegue ascendentemente: Haga simulaciones siempre con 3 numeros distintos
+
+primer_num = int(input("Ingrese el primer numero:"))
+segundo_num = int(input("Ingrese el segundo numero:"))
+tercer_num = int(input("Ingrese el tercer numero:"))
+if primer_num < segundo_num:
+ if primer_num < tercer_num:
+    if segundo_num < tercer_num:
+     print("Los numeros en orden ascendente son:", primer_num, segundo_num, tercer_num) 
+if segundo_num < primer_num:
+ if segundo_num < tercer_num:
+    if primer_num < tercer_num:
+      print("Los numeros en orden ascendente son:", segundo_num, primer_num, tercer_num)
+if tercer_num < primer_num:
+  if tercer_num < segundo_num:
+    if primer_num < segundo_num:
+     print("Los numeros en orden ascendente son:", tercer_num, segundo_num, primer_num)
