@@ -14,7 +14,3 @@ if tercer_num > primer_num:
   if tercer_num > segundo_num:
     if primer_num > segundo_num:
      print("Los numeros en orden descendente son:", tercer_num, segundo_num, primer_num)
-if tercer_num > primer_num:
-  if tercer_num > segundo_num:
-    if segundo_num > primer_num:
-     print("Los numeros en orden descendente son:", tercer_num, primer_num, segundo_num)
