@@ -29,4 +29,7 @@ if imc < 25:
 if imc > 25:
     print("Sobrepeso")
 
-
+#Desarrrolle un programa que permita ingresar 3 numeros y desplegarlos de forma descendente.
+primer_num = int(input("Ingrese el primer numero:"))
+segundo_num = int(input("Ingrese el segundo numero:"))
+tercer_num = int(input("Ingrese el tercer numero:"))
