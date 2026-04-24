@@ -17,15 +17,15 @@ while cont <= 10:
     if cont == 1:
        if n > 0:
           suma = n
-    else:
+       else:
         print("ERROR: El número ingresado es invalido.")
         cont = cont - 1
-else:
+    
+    else:
         if n > 0:
             suma = suma + n
         else:
             print("ERROR: El número ingresado es invalido.")
             cont = cont - 1
-        cont = cont + 1
+    cont = cont + 1
 print("La suma de los números ingresados es: ", suma)
-    
