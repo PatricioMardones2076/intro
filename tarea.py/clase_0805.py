@@ -74,9 +74,16 @@
 #la suma de los divisores del numero a y la suma de los divisores del numero b es igual a el numero a y el numero b respectivamente.
 #(ejemplo: 220 y 284)
 
-def suma_divisores(numero):
-   suma = 0
-   for x in range(1, numero):
-      if numero % x == 0:
-         suma = suma + x
+#def suma_divisores(numero):
+#   suma = 0
+#   for x in range(1, numero):
+#      if numero % x == 0:
+#         suma = suma + x
+#   return suma
 
+#Desarrolle una funcion que retorne el factorial de un numero dado por el usuario
+def factorial(numero):
+   if numero == 0 or numero == 1:
+      return 1
+   else:
+      return numero * factorial(numero - 1)
