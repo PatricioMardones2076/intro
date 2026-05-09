@@ -82,8 +82,17 @@
 #   return suma
 
 #Desarrolle una funcion que retorne el factorial de un numero dado por el usuario
-def factorial(numero):
-   if numero == 0 or numero == 1:
-      return 1
-   else:
-      return numero * factorial(numero - 1)
+#def factorial(numero):
+#   if numero == 0 or numero == 1:
+#      return 1
+#   else:
+#      return numero * factorial(numero - 1)
+   
+#Desarrrolle una funcion que reciba 2 listas y retorne 1 lista que contenga la suma cruzada
+def suma_cruzada(lista1, lista2):
+   if len(lista1) != len(lista2):
+      raise ValueError("Las listas deben tener la misma longitud")
+   resultado = []
+   for i in range(len(lista1)):
+      resultado.append(lista1[i] + lista2[i])
+   return resultado
