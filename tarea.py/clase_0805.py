@@ -89,10 +89,14 @@
 #      return numero * factorial(numero - 1)
    
 #Desarrrolle una funcion que reciba 2 listas y retorne 1 lista que contenga la suma cruzada
-def suma_cruzada(lista1, lista2):
-   if len(lista1) != len(lista2):
-      raise ValueError("Las listas deben tener la misma longitud")
-   resultado = []
-   for i in range(len(lista1)):
-      resultado.append(lista1[i] + lista2[i])
-   return resultado
+#def suma_cruzada(lista1, lista2):
+#   if len(lista1) != len(lista2):
+#      raise ValueError("Las listas deben tener la misma longitud")
+#   resultado = []
+#   for i in range(len(lista1)):
+#      resultado.append(lista1[i] + lista2[i])
+#   return resultado
+#lista1 = [1, 2, 3]
+#lista2 = [4, 5, 6]
+#resultado = suma_cruzada(lista1, lista2)
+#print("La suma cruzada de las listas es:", resultado)
